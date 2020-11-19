@@ -14,7 +14,6 @@ import { Switch,Route, Redirect} from 'react-router-dom';
 
 function App() {
   return (
-    const WP='https://wa.me/9114813691';
     <>
     <Navbar />
       <Switch>
@@ -22,7 +21,6 @@ function App() {
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/service' component={Service} />
-        <Route exact path='/con' component={WP} />
         <Redirect to='/' />
       </Switch>
       <SocialFollow/>
