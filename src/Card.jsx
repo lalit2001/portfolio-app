@@ -14,7 +14,7 @@ function Card(props) {
                   <div className="card-body">
                     <h5 className="card-title font-weight-bold">{props.title}</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <NavLink to="https://wa.me/9114813691" className="btn btn-primary">Go somewhere</NavLink>
+                    <NavLink to="https://wa.me/9114813691" className="btn btn-primary">Contact</NavLink>
                   </div>
                 </div>
         </div>        
