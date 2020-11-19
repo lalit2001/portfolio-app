@@ -11,7 +11,7 @@ import {
 export default function SocialFollow() {
   return (
     <>
-    <div className='text-center'>
+    <div className='text-center social'>
     <a href="https://www.youtube.com/channel/UCvWUHUgWw_osZUBk2-yJJjQ"
   className="youtube social" target='_blank'>
   <FontAwesomeIcon icon={faYoutube} size="2x" />
